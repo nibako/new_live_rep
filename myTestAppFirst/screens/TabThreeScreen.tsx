@@ -21,18 +21,13 @@ export default function TabThreeScreen(this: any) {
     }}
   >
 
-{this.state.markers.map((marker: { latlng: LatLng | AnimatedRegion; title: string | undefined; description: string | undefined; }, index: React.Key | null | undefined) => (
-<Marker
-key={index}
-coordinate={marker.latlng}
-title={marker.title}
-description={marker.description}
 
-//coordinate={{ latitude : 49.4934689 , longitude : 8.4621149 }}
- // image={{uri: 'https://cdn-0.emojis.wiki/emoji-pics/lg/red-circle-lg.png'}}
-  //title= {'Filmriss'}
- // description={'Öffnungszeiten: 18:00-23:00'}
-/> ))}
+<Marker
+  coordinate={{ latitude : 49.4934689 , longitude : 8.4621149 }}
+  image={{uri: 'https://cdn-0.emojis.wiki/emoji-pics/lg/red-circle-lg.png'}}
+  title= {'Filmriss'}
+  description={'Öffnungszeiten: 18:00-23:00'}
+/> 
     
   </MapView>
     </View>

@@ -67,7 +67,7 @@ function TabOneNavigator() {
       <TabOneStack.Screen
         name="TabOneScreen"
         component={TabOneScreen}
-        options={{ headerTitle: 'Tab One Title' }}
+        options={{ headerTitle: 'Tab  Title' }}
       />
     </TabOneStack.Navigator>
   );
@@ -81,7 +81,7 @@ function TabTwoNavigator() {
       <TabTwoStack.Screen
         name="TabTwoScreen"
         component={TabTwoScreen}
-        options={{ headerTitle: 'Tab Two Title' }}
+        options={{ headerTitle: ' Title' }}
       />
     </TabTwoStack.Navigator>
   );
@@ -94,7 +94,7 @@ function TabThreeNavigator() {
       <TabThreeStack.Screen
         name="TabThreeScreen"
         component={TabThreeScreen}
-        options={{ headerTitle: 'Tab Three Title' }}
+        options={{ headerTitle: 'Tab Title' }}
       />
     </TabThreeStack.Navigator>
   );
